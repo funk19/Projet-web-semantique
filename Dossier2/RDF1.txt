@@ -1,0 +1,39 @@
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:jer="http://localhost:8890/rdfv_pro/schemas/energie"
+	xmlns:ex="https://data.gov.bf/">
+	<rdf:Description rdf:about="Jeu d'energie" />
+		<jer:nature rdf:ressource="Nature1" />
+		<jer:nature rdf:ressource="Nature2" />
+		<jer:nature rdf:ressource="Nature3" />
+		<jer:nature rdf:ressource="Nature4" />
+		<jer:nature rdf:ressource="Nature5" />
+		<jer:annee rdf:ressource="Annee1" />
+		<jer:annee rdf:ressource="Annee2" />
+		<jer:annee rdf:ressource="Annee3" />
+		<jer:annee rdf:ressource="Annee4" />
+		<jer:annee rdf:ressource="Annee5" />
+		<jer:annee rdf:ressource="Annee6" />
+		<jer:annee rdf:ressource="Annee7" />
+		<jer:annee rdf:ressource="Annee8" />
+		<jer:annee rdf:ressource="Annee9" />
+		<jer:annee rdf:ressource="Annee10" />
+		<jer:total rdf:ressource="Total1" />
+		<jer:total rdf:ressource="Total2" />
+		<jer:total rdf:ressource="Total3" />
+		<jer:total rdf:ressource="Total4" />
+		<jer:total rdf:ressource="Total5" />
+		<jer:total rdf:ressource="Total6" />
+		<jer:total rdf:ressource="Total7" />
+		<jer:total rdf:ressource="Total8" />
+		<jer:total rdf:ressource="Total9" />
+		<jer:total rdf:ressource="Total10" />
+	</rdf:Description>
+	<rdf:Description rdf:ID="Nature1">
+		<ex:nature>Centrales thermique/Sonabel</ex>
+		<ex:nature>Centrales hydrauélectrique</ex>
+		<ex:nature>Centrales thermique/FDE</ex>
+		<ex:nature>Centrales hybride</ex>
+		<ex:nature>Centrales solaire</ex>
+	</rdf:Description>
+<rdf:RDF/>

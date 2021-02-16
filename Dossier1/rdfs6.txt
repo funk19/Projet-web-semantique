@@ -1,0 +1,75 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix jer: <http://localhost:8890/rdfv_pro/schemas/prenatale#> .
+
+pre:Prenatale a rdfs:Class ;
+	rdfs:label "Consultation prénatale" ;
+	rdfs:comment "Nombre de consultation prénatale par district " .
+	
+pre:pays a rdf:Property;
+	rdfs:domain enr:Prenatale ;
+	rdfs:range xsd:string ;
+	rdfs:label "Pays" .
+
+pre:region a rdf:Property ;
+	rdfs:domain enr:Prenatale ;
+	rdfs:range xsd:string ;
+	rdfs:label "Région" .
+
+pre:annee a rdf:Property ;
+	rdfs:domain pre:Prenatale ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Année de la statistique" .
+
+pre:nbfemme1 a rdf:Property ;
+	rdfs:domain pre:Prenatale ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Nombre de femme dans les formations sanitaires publiques" .
+
+pre:nbfemme2 a rdf:Property ;
+	rdfs:domain pre:Prenatale ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Nombre de femme dans les formations sanitaires privées" .
+
+pre:nbfemme3 a rdf:Property ;
+	rdfs:domain pre:Prenatale ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Nombre de femme dans les formations publiques durant le 1er trimestre" .
+
+pre:nbfemme4 a rdf:Property ;
+	rdfs:domain pre:Prenatale ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Nombre de femme dans les formations privées durant le 1er trimestre" .
+
+pre:nbfemme5 a rdf:Property ;
+	rdfs:domain pre:Prenatale ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Nombre de femme vu dans les formations publiques durant le CPN2 " .
+
+pre:nbfemme6 a rdf:Property ;
+	rdfs:domain pre:Prenatale ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Nombre de femme dans les formations privées durant le CPN2" .
+
+pre:nbfemme7 a rdf:Property ;
+	rdfs:domain pre:Prenatale ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Nombre de femme vu dans les formations publiques durant le CPN4 " .
+
+pre:nbfemme8 a rdf:Property ;
+	rdfs:domain pre:Prenatale ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Nombre de femme vu dans les formations privées durant le CPN4" .
+
+
+pre:nbfemme9 a rdf:Property ;
+	rdfs:domain pre:Prenatale ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Nombre de femme vu dans les formations publiques durant le CPN5 " .
+
+pre:nbfemme10 a rdf:Property ;
+	rdfs:domain pre:Prenatale ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Nombre de femme vu dans les formations privées durant le CPN5" .

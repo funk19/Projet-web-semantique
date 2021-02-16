@@ -1,0 +1,5 @@
+prefix th:<https://data.gov.bf/theme>
+
+select * where{
+	?theme ;	
+}

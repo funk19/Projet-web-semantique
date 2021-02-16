@@ -1,0 +1,11 @@
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:enr="http://localhost:8890/rdfv_pro/schemas/energiereg"
+	xmlns:ex="https://data.gov.bf/">
+	<rdf:Description rdf:about="Jeu d'energie des regions" />
+		<enr:quantite rdf:ressource="Qté" />
+		<enr:annee rdf:ressource="Annee" />
+		<enr:total rdf:ressource="QtéTotal" />	
+	</rdf:Description>
+	<rdf:Description rdf:ID="Qté">
+<rdf:RDF/>

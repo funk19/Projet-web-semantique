@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix jer: <http://localhost:8890/rdfv_pro/schemas/naissance#> .
+
+ns:Naissance a rdfs:Class ;
+	rdfs:label "Naissance" ;
+	rdfs:comment "Nombre de naissance par district" .
+	
+ns:region a rdf:Property;
+	rdfs:domain ns:Naissance ;
+	rdfs:range xsd:string ;
+	rdfs:label "Région" .
+
+ns:structure a rdf:Property ;
+	rdfs:domain ns:Naissance ;
+	rdfs:range xsd:string ;
+	rdfs:label "Structure sanitaire" .
+
+ns:tvivant a rdf:Property ;
+	rdfs:domain ns:Naissance ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Total des naissances vivantes" .
+
+ns:poids a rdf:Property ;
+	rdfs:domain ns:Naissance ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Nombre de naissances vivantes ayant moins 2500g" .
+
+ns:premature a rdf:Property ;
+	rdfs:domain ns:Naissance ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Nombre de naissances vivantes prématurées" .
+
+ns:frais a rdf:Property ;
+	rdfs:domain ns:Naissance ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Nombre de mort nées frais" .
+
+ns:macabre a rdf:Property ;
+	rdfs:domain ns:Naissance ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Nombre de mort nées macabrées" .

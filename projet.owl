@@ -1,0 +1,387 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/nicodel/ontologies/2021/0/untitled-ontology-3"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/nicodel/ontologies/2021/0/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Agriculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consultation_prenatale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eau_&amp;_Environnement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Education"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evolution_des_produits_imporrtés"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jeu_d&apos;energie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jeu_d&apos;energie_par_region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jeux_de_données"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mines&amp;carrières"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre_de_permis_par_substance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Privés"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Producteurs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rendement_moyen_des_produits_maraichers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Santé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situation_de_naissance_par_district"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thèmes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Télécommunication&amp;poste"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estLié"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#propose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#proposePar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#regroupe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banque_Africaine_de_Developpement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banque_mondiale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CENI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Center_for_internationa_Earth_Science_information_network"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#INSD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MAA_hydro-agricole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MASSN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MATD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MATS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MCT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ME"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MEFD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MENA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MESRI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MFPTSS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MHU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MICA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MJ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MJFPE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MRSI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M_eau_et_assainissement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sahel_DataBank"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Water_Point_Data_Exchange"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WorlPop"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Agriculture"/>
+        <Class IRI="#Thèmes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consultation_prenatale"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eau_&amp;_Environnement"/>
+        <Class IRI="#Thèmes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Education"/>
+        <Class IRI="#Thèmes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Energie"/>
+        <Class IRI="#Thèmes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evolution_des_produits_imporrtés"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeu_d&apos;energie"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeu_d&apos;energie_par_region"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeux_de_données"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#estLié"/>
+            <Class IRI="#Thèmes"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeux_de_données"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#regroupe"/>
+            <Class IRI="#Producteurs"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeux_de_données"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#regroupe"/>
+            <Class IRI="#Thèmes"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mines&amp;carrières"/>
+        <Class IRI="#Thèmes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre_de_permis_par_substance"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Privés"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Producteurs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#propose"/>
+            <Class IRI="#Jeux_de_données"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Publics"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rendement_moyen_des_produits_maraichers"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Santé"/>
+        <Class IRI="#Thèmes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Situation_de_naissance_par_district"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transport"/>
+        <Class IRI="#Thèmes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Télécommunication&amp;poste"/>
+        <Class IRI="#Thèmes"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Agriculture"/>
+        <Class IRI="#Eau_&amp;_Environnement"/>
+        <Class IRI="#Education"/>
+        <Class IRI="#Energie"/>
+        <Class IRI="#Mines&amp;carrières"/>
+        <Class IRI="#Santé"/>
+        <Class IRI="#Transport"/>
+        <Class IRI="#Télécommunication&amp;poste"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Jeux_de_données"/>
+        <Class IRI="#Thèmes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Privés"/>
+        <Class IRI="#Publics"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Privés"/>
+        <NamedIndividual IRI="#Banque_Africaine_de_Developpement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Privés"/>
+        <NamedIndividual IRI="#Banque_mondiale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#CENI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Privés"/>
+        <NamedIndividual IRI="#Center_for_internationa_Earth_Science_information_network"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#INSD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#MAA_hydro-agricole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#MASSN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#MATD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#MATS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#MCT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#ME"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#MEFD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#MENA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#MESRI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#MFPTSS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#MHU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#MICA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#MJ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#MJFPE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#MRSI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publics"/>
+        <NamedIndividual IRI="#M_eau_et_assainissement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Privés"/>
+        <NamedIndividual IRI="#Sahel_DataBank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Privés"/>
+        <NamedIndividual IRI="#Water_Point_Data_Exchange"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Privés"/>
+        <NamedIndividual IRI="#WorlPop"/>
+    </ClassAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#propose"/>
+        <ObjectProperty IRI="#proposePar"/>
+    </InverseObjectProperties>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

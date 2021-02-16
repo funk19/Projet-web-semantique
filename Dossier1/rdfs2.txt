@@ -1,0 +1,24 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix jer: <http://localhost:8890/rdfv_pro/schemas/energiereg#> .
+
+enr:EnergieR a rdfs:Class ;
+	rdfs:label "Energie du Burkina" ;
+	rdfs:comment "Jeu d'energie des régions " .
+	
+enr:quantite a rdf:Property;
+	rdfs:domain enr:EnergieR ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Quantité d'énergie par région" .
+
+enr:annee a rdf:Property ;
+	rdfs:domain enr:EnergieR ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Année de la statistique" .
+
+enr:total a rdf:Property ;
+	rdfs:domain enr:EnergieR ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Quantité totale d'énergie dans le Burkina" .

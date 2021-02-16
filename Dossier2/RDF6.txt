@@ -1,0 +1,26 @@
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:ns="http://localhost:8890/rdfv_pro/schemas/prenatale"
+	xmlns:ex="https://data.gov.bf/">
+	<rdf:Description rdf:about="Consultation prenatale" />
+		<pre:pays rdf:ressource="Pays" />
+		<pre:region rdf:ressource="Région" />
+		<pre:annee rdf:ressource="Année" />
+		<pre:nbfemme1 rdf:ressource="Région" />
+		<pre:nbfemme2 rdf:ressource="fsprivé" />
+		<pre:nbfemme3 rdf:ressource="fspublic" />
+		<ns:poids rdf:ressource="Poids" />
+		<pre:nbfemme4 rdf:ressource="fsprivé1" />
+		<pre:nbfemme5 rdf:ressource="fspublic1" />
+		<pre:nbfemme5 rdf:ressource="fsprivé2" />
+		<pre:nbfemme6 rdf:ressource="fspublic2" />
+		<pre:nbfemme7 rdf:ressource="fsprivé3" />
+		<pre:nbfemme8 rdf:ressource="fspublic3" />
+		<pre:nbfemme9 rdf:ressource="fsprivé4" />
+		<pre:nbfemme10 rdf:ressource="fspublic4" />
+	</rdf:Description>
+	
+	<rdf:Description rdf:ID="Pays">
+	</rdf:Description>
+	
+<rdf:RDF/>

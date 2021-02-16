@@ -1,0 +1,13 @@
+prefix	pro:<https://data.gov.bf/producteur/>
+
+select ?producteur  where{
+	pro:privé [
+	rdfs:member ?producteur;
+	]
+}
+
+select ?producteur  where{
+	pro:public [
+	rdfs:member ?producteur;
+	]
+}

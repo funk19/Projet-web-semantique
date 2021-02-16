@@ -1,0 +1,24 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix jer: <http://localhost:8890/rdfv_pro/schemas/importation#> .
+
+imp:Importation a rdfs:Class ;
+	rdfs:label "Importation" ;
+	rdfs:comment "Evolution principaux des produits importés" .
+	
+imp:nom a rdf:Property;
+	rdfs:domain imp:Importation ;
+	rdfs:range xsd:string ;
+	rdfs:label "Nom des produits importés" .
+
+imp:annee a rdf:Property ;
+	rdfs:domain imp:Importation ;
+	rdfs:range xsd:integer ;
+	rdfs:label "Année de la statistique" .
+
+imp:total a rdf:Property ;
+	rdfs:domain imp:Importation ;
+	rdfs:range xsd:float ;
+	rdfs:label "Nombre total de produits importés" .

@@ -1,0 +1,11 @@
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:imp="http://localhost:8890/rdfv_pro/schemas/importation"
+	xmlns:ex="https://data.gov.bf/">
+	<rdf:Description rdf:about="Evolution des produits importés" />
+		<imp:nom rdf:ressource="Produit" />
+		<imp:annee rdf:ressource="Annee" />
+		<imp:total rdf:ressource="QtéTotal" />	
+	</rdf:Description>
+	<rdf:Description rdf:ID="Produit">
+<rdf:RDF/>

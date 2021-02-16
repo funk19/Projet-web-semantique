@@ -1,0 +1,18 @@
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:ns="http://localhost:8890/rdfv_pro/schemas/naissance"
+	xmlns:ex="https://data.gov.bf/">
+	<rdf:Description rdf:about="Naissance par district" />
+		<ns:region rdf:ressource="Région" />
+		<ns:structure rdf:ressource="Structure" />
+		<ns:tvivant rdf:ressource="Vivant" />
+		<ns:poids rdf:ressource="Poids" />
+		<ns:premature rdf:ressource="Prématuré" />
+		<ns:frais rdf:ressource="Mort-né" />
+		<ns:macabre rdf:ressource="Macabre" />	
+	</rdf:Description>
+	
+	<rdf:Description rdf:ID="Région1">
+	</rdf:Description>
+	
+<rdf:RDF/>

@@ -1,0 +1,47 @@
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:th="http://localhost:8890/rdfv_pro/schemas/themes"
+	xmlns:ex="https://data.gov.bf/">
+	<rdf:Description rdf:about="Liste des thèmes" />
+		<th:theme ressource="Theme1" />
+		<th:theme ressource="Theme2" />
+		<th:theme ressource="Theme3" />
+		<th:theme ressource="Theme4" />
+		<th:theme ressource="Theme5" />
+	</rdf:Description>
+
+	<rdf:Description rdf:ID="Theme1">
+		<ex:theme>Education</ex>
+	</rdf:Description>
+	
+	<rdf:Description rdf:ID="Theme2">
+		<ex:theme>Agriculture</ex>
+	</rdf:Description>
+	
+	<rdf:Description rdf:ID="Theme3">
+		<ex:theme>Santé</ex>
+	</rdf:Description>
+	
+	<rdf:Description rdf:ID="Theme4">
+		<ex:theme>Energie</ex>
+	</rdf:Description>
+	
+	<rdf:Description rdf:ID="Theme5">
+		<ex:privé>Transport</ex>
+	</rdf:Description>
+	
+	<rdf:Bag>
+		 <rdf:li rdf:resource="Private1" Banque mondiale />
+		 <rdf:li rdf:resource="Private1" Banque africaine de developpemnt />
+		 <rdf:li rdf:resource="Private1" Sahel DataBank />
+		 <rdf:li rdf:resource="Private1" WorldPop />
+	</rdf:Bag>
+	
+	<rdf:Bag>
+		 <rdf:li rdf:resource="Theme1" Education />
+		 <rdf:li rdf:resource="Theme2" Agriculture />
+		 <rdf:li rdf:resource="Theme3" Santé />
+		 <rdf:li rdf:resource="Theme4" Energie />
+		 <rdf:li rdf:resource="Theme5" Transport />
+	</rdf:Bag>
+<rdf:RDF/>

@@ -1,0 +1,11 @@
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:sub="http://localhost:8890/rdfv_pro/schemas/substance"
+	xmlns:ex="https://data.gov.bf/">
+	<rdf:Description rdf:about="Permis par substance minière" />
+		<sub:Nature rdf:ressource="Nature" />
+		<sub:annee rdf:ressource="Annee" />
+		<sub:nombre rdf:ressource="Nombre" />	
+	</rdf:Description>
+	<rdf:Description rdf:ID="Nature">
+<rdf:RDF/>

@@ -1,0 +1,19 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix	pro:<https://data.gov.bf/producteur/>
+
+pro:Producteur a rdfs:Class ;
+	rdfs:label "Producteur"
+	rdfs:comment "Liste des producteurs" .
+	
+pro:privé a rdf:Property ;
+	rdfs:domain pro:Producteur ;
+	rdfs:range xsd:string ;
+	rdfs:label "Producteurs privés" .
+
+pro:public a rdf:Property ;
+	rdfs:domain pro:Producteur ;
+	rdfs:range xsd:string ;
+	rdfs:label "Producteurs publics" .

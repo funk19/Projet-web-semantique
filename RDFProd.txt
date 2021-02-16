@@ -1,0 +1,33 @@
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:pro="http://localhost:8890/rdfv_pro/schemas/producteurs"
+	xmlns:ex="https://data.gov.bf/">
+	<rdf:Description rdf:about="Liste des producteurs" />
+		<pro:privé ressource="Private1" />
+		<pro:public ressource="Public1" />
+	</rdf:Description>
+
+	<rdf:Description rdf:ID="Private1">
+		<ex:privé>Banque mondiale</ex>
+	</rdf:Description>
+	
+	<rdf:Description rdf:ID="Public1">
+		<ex:public>MENA</ex>
+	</rdf:Description>
+	
+	<rdf:Bag>
+		 <rdf:li rdf:resource="Private1" Banque mondiale />
+		 <rdf:li rdf:resource="Private1" Banque africaine de developpemnt />
+		 <rdf:li rdf:resource="Private1" Sahel DataBank />
+		 <rdf:li rdf:resource="Private1" WorldPop />
+	</rdf:Bag>
+	
+	<rdf:Bag>
+		 <rdf:li rdf:resource="Public1" MESRI />
+		 <rdf:li rdf:resource="Public1" MATD />
+		 <rdf:li rdf:resource="Public1" MASSN />
+		 <rdf:li rdf:resource="Public1" CENI />
+		 <rdf:li rdf:resource="Public1" MCT />
+		 <rdf:li rdf:resource="Public1" INSD />
+	</rdf:Bag>
+<rdf:RDF/>
